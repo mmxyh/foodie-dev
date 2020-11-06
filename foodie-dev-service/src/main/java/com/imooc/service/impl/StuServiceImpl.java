@@ -22,19 +22,30 @@ public class StuServiceImpl implements StuService{
     public Stu getStuInfo(int id) {
         return stuMapper.selectByPrimaryKey(id);
     }
-
+    @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void saveStu() {
-
+        Stu stu = new Stu();
+        stu.setName("ddd");
+        stu.setAge(11);
+        stuMapper.insert(stu);
     }
 
+    @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void updateStu(int id) {
-
+        Stu stu = new Stu();
+        stu.setId(id);
+        stu.setName("ddd");
+        stu.setAge(11);
+        stuMapper.updateByPrimaryKey(stu);
     }
+
+    @Transactional(propagation = Propagation.REQUIRED)
 
     @Override
     public void deleteStu(int id) {
+        stuMapper.deleteByPrimaryKey(id);
 
     }
 
