@@ -10,29 +10,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>foodie-dev-api</artifactId>
-    
 
-   <dependencies>
-       <!--
-           api -> service -> mapper -> pojo -> common
-           api可以使用service、pojo与common中相应的方法的
-           api -> common-mail
-           api可以使用common-mail中相应的方法的
-        -->
-       <dependency>
-           <groupId>com.imooc</groupId>
-           <artifactId>foodie-dev-service</artifactId>
-           <version>1.0-SNAPSHOT</version>
-       </dependency>
 
-       <!-- Junit -->
-       <dependency>
-           <groupId>org.springframework.boot</groupId>
-           <artifactId>spring-boot-starter-test</artifactId>
-           <scope>test</scope>
-       </dependency>
+    <dependencies>
+        <!--
+            api -> service -> mapper -> pojo -> common
+            api可以使用service、pojo与common中相应的方法的
+            api -> common-mail
+            api可以使用common-mail中相应的方法的
+         -->
+        <dependency>
+            <groupId>com.imooc</groupId>
+            <artifactId>foodie-dev-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
-   </dependencies>
+        <!-- Junit -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
 
 
 </project>

@@ -54,6 +54,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <!--
             springboot默认解析yaml文件，想要解析其他文件，就要加入依赖。
          -->

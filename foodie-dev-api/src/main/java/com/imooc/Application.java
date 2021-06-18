@@ -13,8 +13,10 @@ import tk.mybatis.spring.annotation.MapperScan;
 // 扫描mybaties通用 mapper 所在的包
 @MapperScan(basePackages = "com.imooc.mapper")
 @EnableTransactionManagement
-public class Application {
+public class Application  {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+
+
 }

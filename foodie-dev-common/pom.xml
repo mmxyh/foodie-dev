@@ -11,7 +11,7 @@
     <!--默认打包方式为jar-->
     <!--<packaging>jar</packaging>-->
 
-    <artifactId>foofie-dev-common</artifactId>
+    <artifactId>foodie-dev-common</artifactId>
 
 
 </project>
