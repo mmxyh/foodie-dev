@@ -3,11 +3,13 @@ package com.imooc.controller;
 import com.imooc.service.StuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @author: hmm
  * @date: 2020/11/6 17:10
  */
+@ApiIgnore
 @RestController
 public class StuFooController {
     @Autowired

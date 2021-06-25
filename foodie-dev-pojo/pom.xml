@@ -14,9 +14,10 @@
     <dependencies>
         <dependency>
             <groupId>com.imooc</groupId>
-            <artifactId>foofie-dev-common</artifactId>
+            <artifactId>foodie-dev-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
 
